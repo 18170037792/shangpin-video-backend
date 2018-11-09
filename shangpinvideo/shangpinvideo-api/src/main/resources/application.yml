@@ -1,0 +1,20 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+  http:
+    multipart:
+      maxFileSize: 100Mb
+      maxRequestSize: 1000Mb
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: cn.shangpin.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+    use-column-label: true
+    use-generated-keys: true
+pagehelper:
+  helperDialect: mysql
+  supportMethodsArguments: true
+  params: count,countSql

@@ -1,8 +1,8 @@
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\ServiceException.java
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\DataNotFoundException.java
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\ValidateException.java
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\ParameterException.java
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\utils\GetMD5.java
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\utils\JsonResult.java
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\utils\Constant.java
-D:\work\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\aspect\ServiceExceptionAop.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\ParameterException.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\ServiceException.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\DataNotFoundException.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\exception\ValidateException.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\utils\JsonResult.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\utils\Constant.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\aspect\ServiceExceptionAop.java
+F:\英语\Java仿抖音短视频小程序开发 全栈式实战项目\wechat\shangpin-video-backend\shangpinvideo\shangpinvideo-common\src\main\java\cn\shangpin\utils\GetMD5.java

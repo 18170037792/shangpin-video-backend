@@ -2,6 +2,8 @@ cn\shangpin\pojo\SearchRecordsTable.class
 cn\shangpin\pojo\videosTable.class
 cn\shangpin\pojo\UserInfoTable.class
 cn\shangpin\pojo\CommentsTable.class
+cn\shangpin\pojo\UserReportTable.class
+cn\shangpin\dto\UserInfoDto.class
 cn\shangpin\pojo\UserFansTable.class
 cn\shangpin\query\UserInfoLogin.class
 cn\shangpin\pojo\BgmInfoTable.class

@@ -49,7 +49,7 @@ public class UserInfoDaoTest {
     @Test
     public void login(){
         UserInfoLogin userInfoLogin =new UserInfoLogin();
-        userInfoLogin.setPhone("18170037792");
+        userInfoLogin.setUsername("瞿杰");
         userInfoLogin.setPassword("123123");
         UserInfoTable userInfo = userInfoDao.login(userInfoLogin);
         if(userInfo==null){

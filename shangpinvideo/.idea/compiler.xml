@@ -6,6 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shangpinvideo-api" />
+        <module name="shangpinvideo-common" />
+        <module name="shangpinvideo-dao" />
+        <module name="shangpinvideo-pojo" />
+        <module name="shangpinvideo-service" />
         <module name="shangpinvideoapi" />
         <module name="shangpinvideocommon" />
         <module name="shangpinvideodao" />

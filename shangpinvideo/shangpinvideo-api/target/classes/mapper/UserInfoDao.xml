@@ -19,8 +19,7 @@
     <select id="login" parameterType="cn.shangpin.query.UserInfoLogin" resultType="cn.shangpin.pojo.UserInfoTable">
         SELECT *
         FROM user_info
-        WHERE
-        username = #{username} AND password = #{password}
-        OR (phone = #{phone} AND password = #{password})
+        WHERE username=#{username}
+        AND password=#{password}
     </select>
 </mapper>

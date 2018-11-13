@@ -10,7 +10,7 @@ public class Constant {
     /**
      * 系统异常提示
      */
-    public final static String SYSTEM_ERROR = "System error";
+    public final static String SYSTEM_ERROR = "系统异常";
 
     public final static Integer SUCCESS_CODE=200;
 
@@ -42,13 +42,6 @@ public class Constant {
 
     public final static String OPERATION_ERROR = "失败";
 
-    /**
-     * 留言板字段名取值
-     */
-    public final static String[] MSG_CODE_LIST = new String[]{"t1","t2","t3","t4","t5","t6"
-            , "t7","t8","t9","t10","t11","t12","t13","t14","t15","t16","t17","t18","t19","t20"};
-    /**
-     * 导航栏链接生成取值
-     */
-    public final static String[] NAVIGATION_BAR_ARR = new String[]{"/message","/naviga/arttype","/naviga/artinfo"};
+    public final static String MP_APPID="wxbdb6ef395cad7259";
+    public final static String MP_SECRET="65f4364d163996c03976bf2ee7b1199d";
 }

@@ -1,2 +1,8 @@
+cn\shangpin\exception\ValidateException.class
+cn\shangpin\utils\GetMD5.class
+cn\shangpin\exception\DataNotFoundException.class
+cn\shangpin\exception\ParameterException.class
 cn\shangpin\utils\JsonResult.class
+cn\shangpin\aspect\ServiceExceptionAop.class
+cn\shangpin\exception\ServiceException.class
 cn\shangpin\utils\Constant.class

@@ -2,24 +2,16 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.shangpin.dao.UserInfoDao">
+<mapper namespace="cn.shangpin.dao.PersonalDataDao">
 
-    <select id="findByUsernname" parameterType="String" resultType="int">
+    <!--<select id="findByUsernname" parameterType="String" resultType="int">
         select count(*)
         from user_info
         where username=#{username}
-    </select>
+    </select>-->
 
-    <insert id="insert" parameterType="cn.shangpin.pojo.UserInfoTable">
-        INSERT INTO user_info(phone,username,password,nickname,face_image,fans_counts,follow_counts,receive_like_counts)
-        VALUE (#{phone},#{username},#{password},#{nickname},#{faceImage},#{fansCounts},#{followCounts},#{receiveLikeCounts})
+    <insert id="insert" parameterType="cn.shangpin.pojo.PersonalDataTable">
+        INSERT INTO personal_data(user_id,signature,school,gender,birthday,place,email,create_time,update_time)
+        VALUE (#{userId},#{signature},#{school},#{gender},#{birthday},#{place},#{email},#{createTime},#{updateTime})
     </insert>
-
-    <!--用户登录-->
-    <select id="login" parameterType="cn.shangpin.query.UserInfoLogin" resultType="cn.shangpin.pojo.UserInfoTable">
-        SELECT *
-        FROM user_info
-        WHERE username=#{username}
-        AND password=#{password}
-    </select>
 </mapper>

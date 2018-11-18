@@ -8,7 +8,7 @@ import java.util.Date;
  * Created by qujie on 2018/11/8
  * 视频表实体类
  * */
-public class videosTable {
+public class VideosTable {
 
     private Long id;
     /**

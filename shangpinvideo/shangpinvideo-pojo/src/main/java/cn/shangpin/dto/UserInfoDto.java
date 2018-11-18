@@ -3,6 +3,7 @@ package cn.shangpin.dto;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.NotNull;
+import java.util.Date;
 
 /**
  * 业务层

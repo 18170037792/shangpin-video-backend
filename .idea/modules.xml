@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/shangpinvideo/shangpin-video.iml" filepath="$PROJECT_DIR$/shangpinvideo/shangpin-video.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shangpin-video-backend.iml" filepath="$PROJECT_DIR$/.idea/shangpin-video-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/shangpinvideo-api.iml" filepath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/shangpinvideo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/shangpinvideo-common.iml" filepath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/shangpinvideo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/shangpinvideo-dao.iml" filepath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/shangpinvideo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/shangpinvideo-pojo.iml" filepath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/shangpinvideo-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/shangpinvideo-service.iml" filepath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/shangpinvideo-service.iml" />
     </modules>
   </component>
 </project>

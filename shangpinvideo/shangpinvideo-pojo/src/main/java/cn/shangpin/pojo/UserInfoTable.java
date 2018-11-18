@@ -4,6 +4,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created by qujie on 2018/11/7
@@ -92,6 +93,7 @@ public class UserInfoTable {
     public void setFaceImage(String faceImage) {
         this.faceImage = faceImage;
     }
+
 
     @Override
     public String toString() {

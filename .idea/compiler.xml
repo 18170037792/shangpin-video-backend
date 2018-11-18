@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shangpinvideo-api" />
+        <module name="shangpinvideo-common" />
+        <module name="shangpinvideo-dao" />
+        <module name="shangpinvideo-pojo" />
+        <module name="shangpinvideo-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shangpin-video" target="1.8" />
+      <module name="shangpinvideo-api" target="1.8" />
+      <module name="shangpinvideo-common" target="1.8" />
+      <module name="shangpinvideo-dao" target="1.8" />
+      <module name="shangpinvideo-pojo" target="1.8" />
+      <module name="shangpinvideo-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

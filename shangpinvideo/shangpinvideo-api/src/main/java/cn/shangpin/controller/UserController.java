@@ -1,7 +1,7 @@
 package cn.shangpin.controller;
 
 import cn.shangpin.dto.UserInfoDto;
-import cn.shangpin.pojo.UserInfoTable;
+import cn.shangpin.dto.UserPersonalDto;
 import cn.shangpin.query.UserInfoLogin;
 import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
@@ -11,12 +11,9 @@ import cn.shangpin.utils.JsonResult;
 import net.sf.json.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
 /**
  * Created by qujie on 2018/11/7
@@ -138,6 +135,19 @@ public class UserController {
         }
 
         return new  JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS);
+    }
+
+    /**
+     * 查询个人信息
+     * */
+    @GetMapping("/userPersonal")
+    public JsonResult<UserPersonalDto> getUserPersonal(Long userId) throws Exception {
+        UserPersonalDto dto = userInfoService.getUserPersonalInfo(userId);
+        if(dto==null){
+            return new JsonResult<>(Constant.FAILED_CODE,Constant.WAIT_AGAIN);
+        }else {
+            return new JsonResult<>(Constant.SUCCESS_CODE,Constant.QUERY_SUCCESS,dto);
+        }
     }
 
 }

@@ -13,6 +13,7 @@ import java.util.Date;
 public class UserInfoTable {
 
     private Long id;
+    private String openId;
     private String phone;
     private String username;
     private String password;
@@ -28,6 +29,14 @@ public class UserInfoTable {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getOpenId() {
+        return openId;
+    }
+
+    public void setOpenId(String openId) {
+        this.openId = openId;
     }
 
     public String getPhone() {
@@ -99,6 +108,7 @@ public class UserInfoTable {
     public String toString() {
         return "UserInfoTable{" +
                 "id=" + id +
+                ", openId='" + openId + '\'' +
                 ", phone='" + phone + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +

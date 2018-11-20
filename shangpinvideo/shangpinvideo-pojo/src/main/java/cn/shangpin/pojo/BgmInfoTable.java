@@ -51,4 +51,14 @@ public class BgmInfoTable {
     public void setPath(String path) {
         this.path = path;
     }
+
+    @Override
+    public String toString() {
+        return "BgmInfoTable{" +
+                "id=" + id +
+                ", author='" + author + '\'' +
+                ", name='" + name + '\'' +
+                ", path='" + path + '\'' +
+                '}';
+    }
 }

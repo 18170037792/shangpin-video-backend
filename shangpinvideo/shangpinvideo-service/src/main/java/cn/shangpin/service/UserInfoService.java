@@ -1,6 +1,7 @@
 package cn.shangpin.service;
 
 import cn.shangpin.dto.UserInfoDto;
+import cn.shangpin.dto.UserPersonalDto;
 import cn.shangpin.query.UserInfoLogin;
 
 /**
@@ -23,4 +24,9 @@ public interface UserInfoService {
      * 用户登录
      * */
     public UserInfoDto login(UserInfoLogin userInfoLogin) throws Exception;
+
+    /**
+     * 根据用户id关联查询个人信息
+     * */
+    public UserPersonalDto getUserPersonalInfo(Long userId) throws Exception;
 }

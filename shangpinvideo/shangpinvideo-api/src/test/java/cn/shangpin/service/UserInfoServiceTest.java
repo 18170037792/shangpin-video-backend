@@ -1,6 +1,7 @@
 package cn.shangpin.service;
 
 import cn.shangpin.dto.UserInfoDto;
+import cn.shangpin.dto.UserPersonalDto;
 import cn.shangpin.query.UserInfoLogin;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -28,5 +29,11 @@ public class UserInfoServiceTest {
         userInfoLogin.setPassword("123123");
         UserInfoDto userInfoDto = userInfoService.login(userInfoLogin);
         System.out.println("登录用户信息:"+userInfoDto);
+    }
+
+    @Test
+    public void getUserPersonalInfo() throws Exception{
+        UserPersonalDto info = userInfoService.getUserPersonalInfo(1006L);
+        System.out.println(info);
     }
 }

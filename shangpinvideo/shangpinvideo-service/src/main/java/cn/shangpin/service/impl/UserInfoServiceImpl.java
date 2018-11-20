@@ -2,11 +2,13 @@ package cn.shangpin.service.impl;
 
 import cn.shangpin.dao.UserInfoDao;
 import cn.shangpin.dto.UserInfoDto;
+import cn.shangpin.dto.UserPersonalDto;
 import cn.shangpin.exception.ServiceException;
 import cn.shangpin.pojo.UserInfoTable;
 import cn.shangpin.query.UserInfoLogin;
 import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
+import cn.shangpin.view.UserPersonalView;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -48,5 +50,18 @@ public class UserInfoServiceImpl implements UserInfoService {
             throw new ServiceException(Constant.SYSTEM_ERROR);
         }
         return userInfoDto;
+    }
+
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public UserPersonalDto getUserPersonalInfo(Long userId) throws Exception {
+        UserPersonalDto dto=new UserPersonalDto();
+        UserPersonalView view = userInfoDao.getUserPersonalInfo(userId);
+        BeanUtils.copyProperties(view,dto);
+        if(dto==null){
+            throw new ServiceException(Constant.SYSTEM_ERROR);
+        }
+        return dto;
     }
 }

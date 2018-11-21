@@ -2,6 +2,10 @@ package cn.shangpin.dto;
 
 import java.util.Date;
 
+/**
+ * Created by qujie on 2018/11/11
+ * 用户模块业务视图层对象
+ * */
 public class UserPersonalDto {
 
     private Long userId;

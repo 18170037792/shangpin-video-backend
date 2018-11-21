@@ -3,6 +3,7 @@ package cn.shangpin.service;
 import cn.shangpin.dto.UserInfoDto;
 import cn.shangpin.dto.UserPersonalDto;
 import cn.shangpin.query.UserInfoLogin;
+import cn.shangpin.utils.JsonResult;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,15 +21,6 @@ public class UserInfoServiceTest {
     public void userNameIsExist() throws Exception{
         boolean flag = userInfoService.userNameIsExist("瞿杰");
         System.out.println(flag);
-    }
-
-    @Test
-    public void login() throws Exception{
-        UserInfoLogin userInfoLogin=new UserInfoLogin();
-        userInfoLogin.setUsername("瞿杰");
-        userInfoLogin.setPassword("123123");
-        UserInfoDto userInfoDto = userInfoService.login(userInfoLogin);
-        System.out.println("登录用户信息:"+userInfoDto);
     }
 
     @Test

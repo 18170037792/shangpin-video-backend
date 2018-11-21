@@ -3,6 +3,9 @@ package cn.shangpin.service;
 import cn.shangpin.dto.UserInfoDto;
 import cn.shangpin.dto.UserPersonalDto;
 import cn.shangpin.query.UserInfoLogin;
+import cn.shangpin.utils.JsonResult;
+
+import javax.servlet.http.HttpSession;
 
 /**
  * Created by qujie on 2018/11/7
@@ -23,7 +26,7 @@ public interface UserInfoService {
     /**
      * 用户登录
      * */
-    public UserInfoDto login(UserInfoLogin userInfoLogin) throws Exception;
+    public JsonResult<UserInfoDto> login(UserInfoLogin userInfoLogin) throws Exception;
 
     /**
      * 根据用户id关联查询个人信息

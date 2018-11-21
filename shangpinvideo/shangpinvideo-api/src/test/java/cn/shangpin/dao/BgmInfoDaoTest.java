@@ -21,4 +21,14 @@ public class BgmInfoDaoTest {
         List<BgmInfoTable> bgmList = bgmInfoDao.getBgmList();
         System.out.println(bgmList);
     }
+
+    @Test
+    public void getCount(){
+        int count = bgmInfoDao.getCount();
+        if(count==0){
+            System.out.println("没有数据");
+        }else {
+            System.out.println("有:"+count+"条数据");
+        }
+    }
 }

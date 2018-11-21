@@ -1,4 +1,6 @@
 #开发环境
+web:
+    upload-img-path: F:/upload/img/
 spring:
   datasource:
       driver-class-name: com.mysql.jdbc.Driver

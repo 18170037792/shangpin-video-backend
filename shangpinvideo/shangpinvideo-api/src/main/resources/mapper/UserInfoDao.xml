@@ -23,6 +23,14 @@
         AND password=#{password}
     </select>
 
+    <!--登录前统计数据级-->
+    <select id="getCountByLogin" parameterType="cn.shangpin.query.UserInfoLogin" resultType="int">
+        SELECT count(*)
+        FROM user_info
+        WHERE username=#{username}
+        AND password=#{password}
+    </select>
+
     <!-- 关联查询个人信息 -->
     <select id="getUserPersonalInfo" resultType="cn.shangpin.view.UserPersonalView" parameterType="Long">
         SELECT u.id as user_id, u.open_id, u.phone, u.face_image, u.nickname, u.fans_counts,

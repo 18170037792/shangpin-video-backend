@@ -10,4 +10,6 @@ import java.util.List;
 public interface BgmInfoDao {
 
     public List<BgmInfoTable> getBgmList();
+
+    public int getCount();
 }

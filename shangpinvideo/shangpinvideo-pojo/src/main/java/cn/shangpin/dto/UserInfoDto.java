@@ -10,6 +10,7 @@ import java.util.Date;
  * */
 public class UserInfoDto {
 
+    private Long id;
     private String phone;
     @NotNull(message = "用户名不能为空")
     @NotBlank(message = "用户名不能为空")
@@ -22,6 +23,14 @@ public class UserInfoDto {
     private Integer fansCounts;
     private Integer followCounts;
     private Integer receiveLikeCounts;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getPhone() {
         return phone;
@@ -92,7 +101,8 @@ public class UserInfoDto {
     @Override
     public String toString() {
         return "UserInfoDto{" +
-                "phone='" + phone + '\'' +
+                "id=" + id +
+                ", phone='" + phone + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", faceImage='" + faceImage + '\'' +

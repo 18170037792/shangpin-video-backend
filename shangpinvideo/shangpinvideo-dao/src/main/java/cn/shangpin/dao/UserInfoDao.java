@@ -18,4 +18,6 @@ public interface UserInfoDao {
     public UserInfoTable login(UserInfoLogin userInfoLogin);
 
     public UserPersonalView getUserPersonalInfo(Long userId);
+
+    public int getCountByLogin(UserInfoLogin userInfoLogin);
 }

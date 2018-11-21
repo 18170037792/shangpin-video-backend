@@ -8,12 +8,15 @@ import cn.shangpin.pojo.UserInfoTable;
 import cn.shangpin.query.UserInfoLogin;
 import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
+import cn.shangpin.utils.JsonResult;
 import cn.shangpin.view.UserPersonalView;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+
+import javax.servlet.http.HttpSession;
 
 /**
  * Created by qujie on 2018/11/7
@@ -42,14 +45,15 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
-    public UserInfoDto login(UserInfoLogin userInfoLogin) throws Exception {
-        UserInfoDto userInfoDto=new UserInfoDto();
+    public JsonResult<UserInfoDto> login(UserInfoLogin userInfoLogin) throws Exception {
         UserInfoTable infoTable = userInfoDao.login(userInfoLogin);
-        BeanUtils.copyProperties(infoTable,userInfoDto);
-        if(userInfoDto==null){
-            throw new ServiceException(Constant.SYSTEM_ERROR);
+        if(infoTable==null){
+            return new JsonResult<UserInfoDto>(Constant.FAILED_CODE,Constant.LOGIN_ERROR);
         }
-        return userInfoDto;
+        UserInfoDto userInfoDto=new UserInfoDto();
+        BeanUtils.copyProperties(infoTable,userInfoDto);
+        userInfoDto.setPassword("");
+        return new JsonResult<UserInfoDto>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,userInfoDto);
     }
 
 

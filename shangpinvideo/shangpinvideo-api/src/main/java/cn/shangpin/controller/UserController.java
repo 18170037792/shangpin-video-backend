@@ -6,14 +6,11 @@ import cn.shangpin.query.UserInfoLogin;
 import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
 import cn.shangpin.utils.GetMD5;
-import cn.shangpin.utils.HttpUtil;
 import cn.shangpin.utils.JsonResult;
-import net.sf.json.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
+import javax.servlet.http.HttpSession;
 
 /**
  * Created by qujie on 2018/11/7
@@ -58,7 +55,7 @@ public class UserController {
             return new JsonResult<>(Constant.FAILED_CODE,"用户名已存在");
         }
 
-        return new JsonResult<>(Constant.SUCCESS_CODE,Constant.SAVE_SUCCESS);
+        return new JsonResult<>(Constant.SUCCESS_CODE,Constant.SAVE_SUCCESS,userInfoDto);
     }
 
     /**
@@ -102,39 +99,31 @@ public class UserController {
      *   }
      */
     @PostMapping("/login")
-    public JsonResult<Object> login(@RequestBody UserInfoLogin userInfoLogin) throws Exception {
+    public JsonResult<UserInfoDto> login(@RequestBody UserInfoLogin userInfoLogin, HttpSession session) throws Exception {
         if(StringUtils.isBlank(userInfoLogin.getUsername())||StringUtils.isBlank(userInfoLogin.getPassword())){
             return new JsonResult<>(Constant.FAILED_CODE,"用户名或密码不能为空");
         }
-        UserInfoDto userInfoDto = userInfoService.login(userInfoLogin);
-        if(userInfoDto==null){
-            return new JsonResult<>(Constant.FAILED_CODE,"此用户不存在，请重新登录");
-        }else {
-            return new JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,userInfoDto);
-        }
+        /**
+         * md5加密参数
+         * */
+        userInfoLogin.setPassword(GetMD5.getMD5(userInfoLogin.getPassword()));
+        JsonResult<UserInfoDto> jsonResult = userInfoService.login(userInfoLogin);
+        /**
+         * 将登陆信息存进session
+         * */
+        session.setAttribute("user",jsonResult.getData());
+        return jsonResult;
     }
 
     /**
-     * 微信小程序授权登录
+     * 用户注销
      * */
-    @PostMapping("/mpLogin")
-    public JsonResult<Object> mpLogin(String code) throws Exception{
-        if(StringUtils.isNotEmpty(code)){
-            /**
-             * 请求地址
-             * */
-            String url="https://api.weixin.qq.com/sns/jscode2session?appid="+Constant.MP_APPID
-                    +"&secret="+Constant.MP_SECRET
-                    +"&js_code="+code
-                    +"&grant_type=authorization_code";
-            JSONObject jsonObject = HttpUtil.doGetJson(url);
-            String openid = jsonObject.getString("openid");
-            String session_key = jsonObject.getString("session_key");
-            System.out.println("openId:"+openid);
-            System.out.println("session_key:"+session_key);
+    @PostMapping("/logout")
+    public JsonResult<Object> logout(HttpSession session) throws Exception{
+        if(session.getAttribute("user")!=null){
+            session.removeAttribute("user");
         }
-
-        return new  JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS);
+        return new JsonResult<>(Constant.SUCCESS_CODE,Constant.UNLOGIN_SUCCESS);
     }
 
     /**

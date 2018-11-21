@@ -52,13 +52,26 @@ public class UserInfoDaoTest {
     @Test
     public void login(){
         UserInfoLogin userInfoLogin =new UserInfoLogin();
-        userInfoLogin.setUsername("瞿杰");
+        userInfoLogin.setUsername("ssss");
         userInfoLogin.setPassword("123123");
         UserInfoTable userInfo = userInfoDao.login(userInfoLogin);
         if(userInfo==null){
             System.out.println("用户不存在");
         }else {
             System.out.println("用户信息:"+userInfo);
+        }
+    }
+
+    @Test
+    public void getCountByLogin(){
+        UserInfoLogin userInfoLogin =new UserInfoLogin();
+        userInfoLogin.setUsername("瞿杰");
+        userInfoLogin.setPassword("123123");
+        int count = userInfoDao.getCountByLogin(userInfoLogin);
+        if(count==0){
+            System.out.println("该用户信息不存在");
+        }else {
+            System.out.println("存在用户信息:"+count);
         }
     }
 

@@ -12,6 +12,8 @@ public class Constant {
      */
     public final static String SYSTEM_ERROR = "系统异常";
 
+    public final static String COUNT_ZERO="数量级为零";
+
     public final static Integer SUCCESS_CODE=200;
 
     public final static Integer FAILED_CODE=400;
@@ -27,6 +29,8 @@ public class Constant {
     public final static String  UNLOGIN_SUCCESS = "退出成功";
 
     public final static String UPLOAD_SUCCESS = "上传成功";
+
+    public final static String UPLOAD_FALIED = "上传失败";
 
     public final static String QUERY_SUCCESS = "查询成功";
 

@@ -13,6 +13,8 @@ public interface UserInfoDao {
 
     public int insert(UserInfoTable userInfoTable);
 
+    public int updateUserInfo(UserInfoTable userInfoTable);
+
     public int findByUsernname(String username);
 
     public UserInfoTable login(UserInfoLogin userInfoLogin);

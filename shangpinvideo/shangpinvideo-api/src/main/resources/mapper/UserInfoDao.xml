@@ -15,6 +15,26 @@
         VALUE (#{phone},#{username},#{password},#{nickname},#{faceImage},#{fansCounts},#{followCounts},#{receiveLikeCounts})
     </insert>
 
+    <!--修改用户信息-->
+    <update id="updateUserInfo" parameterType="cn.shangpin.pojo.UserInfoTable">
+        update user_info
+        <set>
+            <if test="phone!=null and phone!=''">
+                phone = #{phone},
+            </if>
+            <if test="password!=null and password!=''">
+                password = #{password},
+            </if>
+            <if test="faceImage!=null and faceImage!=''">
+                face_image = #{faceImage},
+            </if>
+            <if test="nickname!=null and nickname!=''">
+                nickname = #{nickname}
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+
     <!--用户登录-->
     <select id="login" parameterType="cn.shangpin.query.UserInfoLogin" resultType="cn.shangpin.pojo.UserInfoTable">
         SELECT *

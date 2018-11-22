@@ -31,7 +31,7 @@ public class UploadController {
      * 头像上传接口
      * */
     @PostMapping("/image")
-    public JsonResult<String> uploadImage(Long userId, @RequestParam("file") MultipartFile[] files) throws IOException {
+    public JsonResult<String> uploadImage(Long userId, @RequestParam("file") MultipartFile[] files) throws Exception {
 
         if (userId == null) {
             return new JsonResult<String>(Constant.FAILED_CODE,Constant.PARAMETER_ERROR);
@@ -72,10 +72,13 @@ public class UploadController {
                 fileOutputStream.close();
             }
         }
-
+        /**
+         * 保存用户信息
+         * */
         UserInfoDto userInfoDto = new UserInfoDto();
         userInfoDto.setId(userId);
         userInfoDto.setFaceImage(uploadPathDB);
-        return new JsonResult<String>(Constant.SUCCESS_CODE,uploadPathDB);
+        userInfoService.updateUserInfo(userInfoDto);
+        return new JsonResult<String>(Constant.SUCCESS_CODE,Constant.UPLOAD_SUCCESS,uploadPathDB);
     }
 }

@@ -28,4 +28,12 @@ public class UserInfoServiceTest {
         UserPersonalDto info = userInfoService.getUserPersonalInfo(1006L);
         System.out.println(info);
     }
+
+    @Test
+    public void updateUserInfo() throws Exception{
+        UserInfoDto infoDto=new UserInfoDto();
+        infoDto.setId(1002L);
+        infoDto.setPassword("123456");
+        userInfoService.updateUserInfo(infoDto);
+    }
 }

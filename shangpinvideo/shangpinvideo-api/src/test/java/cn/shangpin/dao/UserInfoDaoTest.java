@@ -80,4 +80,18 @@ public class UserInfoDaoTest {
         UserPersonalView info = userInfoDao.getUserPersonalInfo(1006L);
         System.out.println(info);
     }
+
+    @Test
+    public void updateUserInfo(){
+        UserInfoTable table = new UserInfoTable();
+        table.setId(1002L);
+        table.setNickname("白茶清欢无别事");
+        int result = userInfoDao.updateUserInfo(table);
+        if(result==0){
+            System.out.println("修改失败");
+        }else {
+            System.out.println("修改成功");
+        }
+    }
+
 }

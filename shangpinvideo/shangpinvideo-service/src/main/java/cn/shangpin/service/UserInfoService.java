@@ -24,6 +24,11 @@ public interface UserInfoService {
     public void saveUser(UserInfoDto userInfoDto) throws Exception;
 
     /**
+     * 修改用户信息
+     * */
+    public void updateUserInfo(UserInfoDto userInfoDto) throws Exception;
+
+    /**
      * 用户登录
      * */
     public JsonResult<UserInfoDto> login(UserInfoLogin userInfoLogin) throws Exception;

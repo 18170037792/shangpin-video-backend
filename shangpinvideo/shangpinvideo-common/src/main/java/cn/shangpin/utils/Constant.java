@@ -46,6 +46,6 @@ public class Constant {
 
     public final static String OPERATION_ERROR = "失败";
 
-    public final static String MP_APPID="wxbdb6ef395cad7259";
-    public final static String MP_SECRET="65f4364d163996c03976bf2ee7b1199d";
+    public final static String MP_APPID="wxdfb7013257e71dd0";
+    public final static String MP_SECRET="27a922017b8057b667c08dff721a17c4";
 }

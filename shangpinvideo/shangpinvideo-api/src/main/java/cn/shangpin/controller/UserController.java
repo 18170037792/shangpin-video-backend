@@ -45,7 +45,7 @@ public class UserController {
          * 保存用户注册信息
          * */
         if(!flag){
-            userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
+            userInfoDto.setPassword(userInfoDto.getPassword());
             userInfoDto.setNickname(userInfoDto.getUsername());
             userInfoDto.setFansCounts(0);
             userInfoDto.setFollowCounts(0);

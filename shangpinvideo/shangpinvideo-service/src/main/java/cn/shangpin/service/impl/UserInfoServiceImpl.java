@@ -8,6 +8,7 @@ import cn.shangpin.pojo.UserInfoTable;
 import cn.shangpin.query.UserInfoLogin;
 import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
+import cn.shangpin.utils.GetMD5;
 import cn.shangpin.utils.JsonResult;
 import cn.shangpin.view.UserPersonalView;
 import org.springframework.beans.BeanUtils;
@@ -38,9 +39,19 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void saveUser(UserInfoDto userInfoDto) {
+        userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
         UserInfoTable userInfoTable=new UserInfoTable();
         BeanUtils.copyProperties(userInfoDto,userInfoTable);
         userInfoDao.insert(userInfoTable);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public void updateUserInfo(UserInfoDto userInfoDto) throws Exception {
+        userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
+        UserInfoTable userInfoTable=new UserInfoTable();
+        BeanUtils.copyProperties(userInfoDto,userInfoTable);
+        userInfoDao.updateUserInfo(userInfoTable);
     }
 
     @Transactional(propagation = Propagation.SUPPORTS)

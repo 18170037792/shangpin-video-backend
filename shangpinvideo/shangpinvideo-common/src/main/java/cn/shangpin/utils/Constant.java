@@ -26,6 +26,8 @@ public class Constant {
 
     public final static String LOGIN_SUCCESS = "登录成功";
 
+    public final static String LOGIN_FAILED = "登录失败";
+
     public final static String  UNLOGIN_SUCCESS = "退出成功";
 
     public final static String UPLOAD_SUCCESS = "上传成功";

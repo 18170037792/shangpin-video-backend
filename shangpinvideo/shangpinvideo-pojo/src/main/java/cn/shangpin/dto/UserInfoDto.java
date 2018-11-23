@@ -11,6 +11,7 @@ import java.util.Date;
 public class UserInfoDto {
 
     private Long id;
+    private String openId;
     private String phone;
     private String username;
     private String password;
@@ -26,6 +27,14 @@ public class UserInfoDto {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getOpenId() {
+        return openId;
+    }
+
+    public void setOpenId(String openId) {
+        this.openId = openId;
     }
 
     public String getPhone() {
@@ -96,6 +105,7 @@ public class UserInfoDto {
     public String toString() {
         return "UserInfoDto{" +
                 "id=" + id +
+                ", openId='" + openId + '\'' +
                 ", phone='" + phone + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +

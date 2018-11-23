@@ -10,6 +10,7 @@ import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
 import cn.shangpin.utils.GetMD5;
 import cn.shangpin.utils.JsonResult;
+import cn.shangpin.utils.ValidateUtil;
 import cn.shangpin.view.UserPersonalView;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +40,9 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void saveUser(UserInfoDto userInfoDto) {
-        userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
+        if(!ValidateUtil.isNull(userInfoDto.getPassword())){
+            userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
+        }
         UserInfoTable userInfoTable=new UserInfoTable();
         BeanUtils.copyProperties(userInfoDto,userInfoTable);
         userInfoDao.insert(userInfoTable);
@@ -48,7 +51,9 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void updateUserInfo(UserInfoDto userInfoDto) throws Exception {
-        userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
+        if(!ValidateUtil.isNull(userInfoDto.getPassword())){
+            userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
+        }
         UserInfoTable userInfoTable=new UserInfoTable();
         BeanUtils.copyProperties(userInfoDto,userInfoTable);
         userInfoDao.updateUserInfo(userInfoTable);
@@ -79,4 +84,24 @@ public class UserInfoServiceImpl implements UserInfoService {
         }
         return dto;
     }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public Boolean judgeByOpenId(String openId) throws Exception {
+        int count = userInfoDao.openIdIsExist(openId);
+        if(count == 0){
+            return false;
+        }
+        return true;
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public UserInfoDto weChatLogin(String openId) throws Exception {
+        UserInfoDto dto = new UserInfoDto();
+        UserInfoTable table = userInfoDao.weChatLogin(openId);
+        BeanUtils.copyProperties(table,dto);
+        return dto;
+    }
+
 }

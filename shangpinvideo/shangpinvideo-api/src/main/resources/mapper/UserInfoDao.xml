@@ -11,8 +11,8 @@
     </select>
 
     <insert id="insert" parameterType="cn.shangpin.pojo.UserInfoTable">
-        INSERT INTO user_info(phone,username,password,nickname,face_image,fans_counts,follow_counts,receive_like_counts)
-        VALUE (#{phone},#{username},#{password},#{nickname},#{faceImage},#{fansCounts},#{followCounts},#{receiveLikeCounts})
+        INSERT INTO user_info(open_id,phone,username,password,nickname,face_image,fans_counts,follow_counts,receive_like_counts)
+        VALUE (#{openId},#{phone},#{username},#{password},#{nickname},#{faceImage},#{fansCounts},#{followCounts},#{receiveLikeCounts})
     </insert>
 
     <!--修改用户信息-->
@@ -59,5 +59,18 @@
         LEFT JOIN personal_data as p
         ON u.id = p.user_id
         where u.id=#{userId}
+    </select>
+
+    <select id="openIdIsExist" parameterType="String" resultType="int">
+        SELECT COUNT(id)
+        FROM user_info
+        WHERE open_id=#{openId}
+    </select>
+
+    <!--用户登录-->
+    <select id="weChatLogin" parameterType="String" resultType="cn.shangpin.pojo.UserInfoTable">
+        SELECT *
+        FROM user_info
+        WHERE open_id=#{openId}
     </select>
 </mapper>

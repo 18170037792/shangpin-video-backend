@@ -36,4 +36,16 @@ public class UserInfoServiceTest {
         infoDto.setPassword("123456");
         userInfoService.updateUserInfo(infoDto);
     }
+
+    @Test
+    public void judgeByOpenId() throws Exception {
+        Boolean judge = userInfoService.judgeByOpenId("owezi5JO-0Xo8wC8V2NpQ61f1mHg");
+        System.out.println(judge);
+    }
+
+    @Test
+    public void weChatLogin() throws Exception{
+        UserInfoDto dto = userInfoService.weChatLogin("owezi5JO-0Xo8wC8V2NpQ61f1mHg");
+        System.out.println(dto);
+    }
 }

@@ -1,0 +1,15 @@
+cn\shangpin\dto\BgmInfoDto.class
+cn\shangpin\dto\UserPersonalDto.class
+cn\shangpin\pojo\UserInfoTable.class
+cn\shangpin\pojo\CommentsTable.class
+cn\shangpin\pojo\VideosTable.class
+cn\shangpin\pojo\SignatureHistoryTable.class
+cn\shangpin\pojo\UserReportTable.class
+cn\shangpin\dto\PersonalDataDto.class
+cn\shangpin\dto\UserInfoDto.class
+cn\shangpin\query\UserInfoLogin.class
+cn\shangpin\pojo\PersonalDataTable.class
+cn\shangpin\view\UserPersonalView.class
+cn\shangpin\pojo\SearchRecordsTable.class
+cn\shangpin\pojo\UserFansTable.class
+cn\shangpin\pojo\BgmInfoTable.class

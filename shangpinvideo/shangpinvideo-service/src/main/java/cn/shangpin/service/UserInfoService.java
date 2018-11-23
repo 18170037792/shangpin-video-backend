@@ -37,4 +37,14 @@ public interface UserInfoService {
      * 根据用户id关联查询个人信息
      * */
     public UserPersonalDto getUserPersonalInfo(Long userId) throws Exception;
+
+    /**
+     * 判断oepnId是否绑定
+     * */
+    public Boolean judgeByOpenId(String openId) throws Exception;
+
+    /**
+     * 微信授权登录
+     * */
+    public UserInfoDto weChatLogin(String openId) throws Exception;
 }

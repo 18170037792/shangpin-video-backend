@@ -1,3 +1,8 @@
+cn\shangpin\controller\WeChatController.class
+cn\shangpin\interceptor\InterceptorConfiguration.class
 cn\shangpin\controller\HelloWorld.class
+cn\shangpin\controller\BgmController.class
 cn\shangpin\Application.class
+cn\shangpin\controller\PersonalDataController.class
 cn\shangpin\controller\UserController.class
+cn\shangpin\controller\UploadController.class

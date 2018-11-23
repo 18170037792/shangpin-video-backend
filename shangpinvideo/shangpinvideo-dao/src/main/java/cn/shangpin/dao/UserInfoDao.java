@@ -22,4 +22,8 @@ public interface UserInfoDao {
     public UserPersonalView getUserPersonalInfo(Long userId);
 
     public int getCountByLogin(UserInfoLogin userInfoLogin);
+
+    public int openIdIsExist(String openId);
+
+    public UserInfoTable weChatLogin(String openId);
 }

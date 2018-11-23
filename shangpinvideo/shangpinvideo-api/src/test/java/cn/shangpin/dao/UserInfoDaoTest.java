@@ -31,13 +31,7 @@ public class UserInfoDaoTest {
     @Test
     public void insertUser(){
         UserInfoTable userInfoTable=new UserInfoTable();
-        userInfoTable.setUsername("阿呆");
-        userInfoTable.setPassword("123123");
-        userInfoTable.setPhone("15172294874");
-        userInfoTable.setFaceImage("./123.jpg");
-        userInfoTable.setFansCounts(0);
-        userInfoTable.setReceiveLikeCounts(0);
-        userInfoTable.setFollowCounts(0);
+        userInfoTable.setOpenId("SJYSLUHJLBGYER1E478SOKMF45AS");
         int insert = userInfoDao.insert(userInfoTable);
         if(insert<1){
             System.out.println("注册用户失败");
@@ -92,6 +86,22 @@ public class UserInfoDaoTest {
         }else {
             System.out.println("修改成功");
         }
+    }
+
+    @Test
+    public void openIdIsExist(){
+        int result = userInfoDao.openIdIsExist("owezi5JO-0Xo8wC8V2NpQ61f1mHg");
+        if(result == 0){
+            System.out.println("用户信息不存在");
+        }else{
+            System.out.println("存在:"+result+"条用户信息");
+        }
+    }
+
+    @Test
+    public void weChatLogin(){
+        UserInfoTable table = userInfoDao.weChatLogin("owezi5JO-0Xo8wC8V2NpQ61f1mHg");
+        System.out.println(table);
     }
 
 }

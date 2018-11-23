@@ -1,2 +1,6 @@
+cn\shangpin\service\PersonalDataServiceTest.class
+cn\shangpin\dao\PersonalDataDaoTest.class
+cn\shangpin\dao\BgmInfoDaoTest.class
 cn\shangpin\dao\UserInfoDaoTest.class
 cn\shangpin\service\UserInfoServiceTest.class
+cn\shangpin\dao\SignatureHistoryDaoTest.class

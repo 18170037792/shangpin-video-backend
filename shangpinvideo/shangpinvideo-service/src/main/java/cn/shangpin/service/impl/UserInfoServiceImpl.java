@@ -30,15 +30,15 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Autowired
     private UserInfoDao userInfoDao;
 
-    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public boolean userNameIsExist(String username) {
         int result = userInfoDao.findByUsernname(username);
         return result >= 1 ? true : false;
     }
 
-    @Transactional(propagation = Propagation.REQUIRED)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void saveUser(UserInfoDto userInfoDto) {
         if(!ValidateUtil.isNull(userInfoDto.getPassword())){
             userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
@@ -48,8 +48,8 @@ public class UserInfoServiceImpl implements UserInfoService {
         userInfoDao.insert(userInfoTable);
     }
 
-    @Transactional(propagation = Propagation.REQUIRED)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void updateUserInfo(UserInfoDto userInfoDto) throws Exception {
         if(!ValidateUtil.isNull(userInfoDto.getPassword())){
             userInfoDto.setPassword(GetMD5.getMD5(userInfoDto.getPassword()));
@@ -59,8 +59,8 @@ public class UserInfoServiceImpl implements UserInfoService {
         userInfoDao.updateUserInfo(userInfoTable);
     }
 
-    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public JsonResult<UserInfoDto> login(UserInfoLogin userInfoLogin) throws Exception {
         UserInfoTable infoTable = userInfoDao.login(userInfoLogin);
         if(infoTable==null){
@@ -72,9 +72,8 @@ public class UserInfoServiceImpl implements UserInfoService {
         return new JsonResult<UserInfoDto>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,userInfoDto);
     }
 
-
-    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public UserPersonalDto getUserPersonalInfo(Long userId) throws Exception {
         UserPersonalDto dto=new UserPersonalDto();
         UserPersonalView view = userInfoDao.getUserPersonalInfo(userId);
@@ -85,8 +84,8 @@ public class UserInfoServiceImpl implements UserInfoService {
         return dto;
     }
 
-    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public Boolean judgeByOpenId(String openId) throws Exception {
         int count = userInfoDao.openIdIsExist(openId);
         if(count == 0){
@@ -95,8 +94,8 @@ public class UserInfoServiceImpl implements UserInfoService {
         return true;
     }
 
-    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public UserInfoDto weChatLogin(String openId) throws Exception {
         UserInfoDto dto = new UserInfoDto();
         UserInfoTable table = userInfoDao.weChatLogin(openId);

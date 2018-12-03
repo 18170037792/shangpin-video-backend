@@ -25,8 +25,8 @@ public class BgmInfoServiceImpl implements BgmInfoService {
     @Autowired
     private BgmInfoDao bgmInfoDao;
 
-    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public List<BgmInfoDto> getBgmList() throws Exception {
         List<BgmInfoTable> tables = bgmInfoDao.getBgmList();
         List<BgmInfoDto> dtos = new ArrayList<>();
@@ -39,8 +39,8 @@ public class BgmInfoServiceImpl implements BgmInfoService {
         return dtos;
     }
 
-    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public int getCount() throws Exception {
         int count = bgmInfoDao.getCount();
         return count;

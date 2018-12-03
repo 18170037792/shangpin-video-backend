@@ -1,2 +1,6 @@
+cn\shangpin\service\impl\BgmInfoServiceImpl.class
 cn\shangpin\service\impl\UserInfoServiceImpl.class
+cn\shangpin\service\PersonalDataService.class
 cn\shangpin\service\UserInfoService.class
+cn\shangpin\service\BgmInfoService.class
+cn\shangpin\service\impl\PersonalDataServiceImpl.class

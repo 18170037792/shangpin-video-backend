@@ -9,9 +9,7 @@ import cn.shangpin.utils.ValidateUtil;
 import net.sf.json.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by qujie on 2018/11/21
@@ -25,12 +23,14 @@ public class WeChatController {
 
     /**
      * 微信小程序授权登录
+     * @Param code
+     * @Param userInfoDto 微信用户信息
      * */
-    @GetMapping("/mpLogin")
-    public JsonResult<Object> mpLogin(String code) throws Exception{
+    @PostMapping("/mpLogin")
+    public JsonResult<Object> mpLogin(String code,@RequestBody UserInfoDto userInfoDto) throws Exception{
         if(StringUtils.isNotEmpty(code)){
             /**
-             * 请求地址
+             * code2Session调用
              * */
             String url="https://api.weixin.qq.com/sns/jscode2session?appid="+ Constant.MP_APPID
                     +"&secret="+Constant.MP_SECRET
@@ -49,9 +49,8 @@ public class WeChatController {
                 UserInfoDto dto = userInfoService.weChatLogin(openid);
                 return new  JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,dto);
             }else {
-                UserInfoDto dto = new UserInfoDto();
-                dto.setOpenId(openid);
-                userInfoService.saveUser(dto);
+                userInfoDto.setOpenId(openid);
+                userInfoService.saveUser(userInfoDto);
                 UserInfoDto infoDto = userInfoService.weChatLogin(openid);
                 return new  JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,infoDto);
             }

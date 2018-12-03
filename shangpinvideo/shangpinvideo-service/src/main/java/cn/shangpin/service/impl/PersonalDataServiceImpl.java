@@ -9,6 +9,7 @@ import cn.shangpin.utils.Constant;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class PersonalDataServiceImpl implements PersonalDataService {
@@ -17,6 +18,7 @@ public class PersonalDataServiceImpl implements PersonalDataService {
     private PersonalDataDao personalDataDao;
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void insert(PersonalDataDto personalDataDto) throws Exception {
         PersonalDataTable table = new PersonalDataTable();
         BeanUtils.copyProperties(personalDataDto,table);
@@ -27,6 +29,7 @@ public class PersonalDataServiceImpl implements PersonalDataService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void update(PersonalDataDto personalDataDto) {
 
     }

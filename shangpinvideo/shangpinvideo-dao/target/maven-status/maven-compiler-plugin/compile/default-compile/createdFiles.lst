@@ -1,1 +1,4 @@
+cn\shangpin\dao\PersonalDataDao.class
 cn\shangpin\dao\UserInfoDao.class
+cn\shangpin\dao\BgmInfoDao.class
+cn\shangpin\dao\SignatureHistoryDao.class

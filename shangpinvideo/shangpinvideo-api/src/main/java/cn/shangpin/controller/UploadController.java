@@ -24,7 +24,7 @@ public class UploadController {
     private UserInfoService userInfoService;
 
     //上传路径
-    @Value("${web.upload-img-path}")
+    @Value("${web.upload-path}")
     String imgPath;
 
     /**
@@ -37,7 +37,7 @@ public class UploadController {
             return new JsonResult<String>(Constant.FAILED_CODE,Constant.PARAMETER_ERROR);
         }
         // 保存到数据库中的相对路径
-        String uploadPathDB = "/" + userId.toString() + "/face";
+        String uploadPathDB ="/img" + "/" + userId.toString() + "/face";
 
         FileOutputStream fileOutputStream = null;
         InputStream inputStream = null;

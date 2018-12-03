@@ -3,35 +3,50 @@
   <component name="ChangeListManager">
     <list default="true" id="5f913a21-0dc9-41ef-80fd-83cada9475df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpin-video.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpin-video.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/shangpinvideo-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/shangpinvideo-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/WeChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/WeChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/interceptor/InterceptorConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/interceptor/InterceptorConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/BgmInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/BgmInfoDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/UserInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/UserInfoDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/BgmInfoDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/BgmInfoDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/UserInfoDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/UserInfoDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/UserInfoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/UserInfoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/mapper/BgmInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/mapper/BgmInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/controller/WeChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/controller/WeChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/interceptor/InterceptorConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/cn/shangpin/interceptor/InterceptorConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/mapper/UserInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/classes/mapper/UserInfoDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/test-classes/cn/shangpin/dao/BgmInfoDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/test-classes/cn/shangpin/dao/BgmInfoDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/shangpinvideo-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/shangpinvideo-api-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/test-classes/cn/shangpin/dao/UserInfoDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/test-classes/cn/shangpin/dao/UserInfoDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/test-classes/cn/shangpin/service/UserInfoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/test-classes/cn/shangpin/service/UserInfoServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/JsonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/classes/cn/shangpin/utils/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/classes/cn/shangpin/utils/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/classes/cn/shangpin/utils/JsonResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/classes/cn/shangpin/utils/JsonResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/BgmInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/BgmInfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/UserInfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/classes/cn/shangpin/dao/BgmInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/classes/cn/shangpin/dao/BgmInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/shangpinvideo-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/shangpinvideo-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/shangpinvideo-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/shangpinvideo-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/shangpinvideo-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/shangpinvideo-dao.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/classes/cn/shangpin/dao/UserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/classes/cn/shangpin/dao/UserInfoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserPersonalDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserPersonalDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/classes/cn/shangpin/dto/UserInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/classes/cn/shangpin/dto/UserInfoDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/classes/cn/shangpin/dto/UserPersonalDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/classes/cn/shangpin/dto/UserPersonalDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/shangpinvideo-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/target/shangpinvideo-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/shangpinvideo-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/shangpinvideo-pojo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/shangpinvideo-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/target/shangpinvideo-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/shangpinvideo-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/shangpinvideo-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UploadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/BgmInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/BgmInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/PersonalDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/PersonalDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UploadServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/UploadService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/impl/BgmInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/impl/BgmInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/impl/PersonalDataServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/impl/PersonalDataServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/impl/UploadServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/classes/cn/shangpin/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/shangpinvideo-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/target/shangpinvideo-service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/target/" />
     <ignored path="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/target/" />
@@ -49,42 +64,46 @@
     <session id="-349297699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="138" />
-          <entry key="xml" value="22" />
-          <entry key="yml" value="8" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="191" />
+          <entry key="xml" value="39" />
+          <entry key="yml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="138" />
-          <entry key="XML" value="22" />
-          <entry key="YAML" value="8" />
+          <entry key="JAVA" value="191" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="39" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="5568" />
-          <entry key="xml" value="596" />
+          <entry key="java" value="7092" />
+          <entry key="xml" value="757" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5568" />
+          <entry key="JAVA" value="7092" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="596" />
+          <entry key="XML" value="757" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -93,15 +112,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserInfoDto.java">
+        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/UserInfoDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="444">
+              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/UserInfoDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/WeChatController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="771">
+              <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
               <folding>
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="35" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="294">
+              <caret line="48" column="83" selection-start-line="48" selection-start-column="83" selection-end-line="48" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,73 +154,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/Constant.java">
+        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UserInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/JsonResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UploadService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UploadServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/GetRandom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/PersonalDataController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="419">
+              <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -194,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UserInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+            <state relative-caret-position="419">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
             </state>
           </provider>
         </entry>
@@ -245,29 +216,32 @@
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/BgmInfoDao.xml" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/BgmInfoDaoTest.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/BgmInfoService.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/BgmInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/BgmController.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/UserInfoDao.xml" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/UserInfoDao.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/UserInfoDaoTest.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserPersonalDto.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/UserInfoServiceTest.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/PersonalDataDto.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/PersonalDataService.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/PersonalDataServiceImpl.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/PersonalDataServiceTest.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserInfoDto.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UserInfoService.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/PersonalDataController.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/WeChatController.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/GetRandom.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UploadService.java" />
-        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UploadServiceImpl.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/JsonResult.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/ValidateUtil.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserInfoDto.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/interceptor/InterceptorConfiguration.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/Constant.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/qq.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/BgmInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/PersonalDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/UserInfoDao.xml" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/UserInfoServiceTest.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/UserInfoDaoTest.java" />
+        <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/WeChatController.java" />
         <option value="$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UploadController.java" />
       </list>
     </option>
@@ -291,6 +265,24 @@
           <item name="shangpin-video" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shangpinvideo-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shangpinvideo-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shangpinvideo-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shangpinvideo-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -298,7 +290,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -308,9 +300,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,45 +384,54 @@
               <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpin" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
               <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
               <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
               <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -439,9 +439,9 @@
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
               <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="shangpin" type="462c0819:PsiDirectoryNode" />
@@ -450,13 +450,31 @@
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
               <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="shangpin" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -525,9 +543,76 @@
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
               <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
-              <item name="shangpinvideo-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpin" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shangpin-video-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpinvideo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="shangpin" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shangpin-video-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -609,10 +694,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542794050042" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543831420905" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -650,23 +736,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonalDataServiceTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shangpinvideo-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.shangpin.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.shangpin.service" />
-      <option name="MAIN_CLASS_NAME" value="cn.shangpin.service.PersonalDataServiceTest" />
-      <option name="METHOD_NAME" value="insert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInfoDaoTest.getCountByLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserInfoDaoTest.setWxUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shangpinvideo-api" />
       <extension name="coverage">
         <pattern>
@@ -676,13 +746,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.shangpin.dao" />
       <option name="MAIN_CLASS_NAME" value="cn.shangpin.dao.UserInfoDaoTest" />
-      <option name="METHOD_NAME" value="getCountByLogin" />
+      <option name="METHOD_NAME" value="setWxUserInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoDaoTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserInfoDaoTest.updateUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shangpinvideo-api" />
       <extension name="coverage">
         <pattern>
@@ -692,13 +762,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.shangpin.dao" />
       <option name="MAIN_CLASS_NAME" value="cn.shangpin.dao.UserInfoDaoTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="METHOD_NAME" value="updateUserInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoServiceTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserInfoServiceTest.setWxUserInfo" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="shangpinvideo-api" />
       <extension name="coverage">
         <pattern>
@@ -708,26 +778,41 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.shangpin.service" />
       <option name="MAIN_CLASS_NAME" value="cn.shangpin.service.UserInfoServiceTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="METHOD_NAME" value="setWxUserInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoServiceTest.updateUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shangpinvideo-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.shangpin.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.shangpin.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.shangpin.service.UserInfoServiceTest" />
+      <option name="METHOD_NAME" value="updateUserInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserInfoServiceTest.setWxUserInfo" />
+      <item itemvalue="JUnit.UserInfoDaoTest.setWxUserInfo" />
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.UserInfoDaoTest.login" />
-      <item itemvalue="JUnit.UserInfoDaoTest.getCountByLogin" />
-      <item itemvalue="JUnit.UserInfoServiceTest.login" />
-      <item itemvalue="JUnit.PersonalDataServiceTest.insert" />
+      <item itemvalue="JUnit.UserInfoDaoTest.updateUserInfo" />
+      <item itemvalue="JUnit.UserInfoServiceTest.updateUserInfo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.PersonalDataServiceTest.insert" />
-        <item itemvalue="JUnit.UserInfoServiceTest.login" />
-        <item itemvalue="JUnit.UserInfoDaoTest.login" />
-        <item itemvalue="JUnit.UserInfoDaoTest.getCountByLogin" />
+        <item itemvalue="JUnit.UserInfoDaoTest.setWxUserInfo" />
+        <item itemvalue="JUnit.UserInfoServiceTest.updateUserInfo" />
+        <item itemvalue="JUnit.UserInfoDaoTest.updateUserInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -745,42 +830,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserInfoServiceTest_login - 2018.11.20 at 17h 12m 16s.xml">
-      <configuration name="UserInfoServiceTest.login" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_updateUserInfo - 2018.11.22 at 14h 09m 50s.xml">
+      <configuration name="UserInfoServiceTest.updateUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoServiceTest_login - 2018.11.20 at 17h 15m 28s.xml">
-      <configuration name="UserInfoServiceTest.login" configurationId="JUnit" />
+    <history-entry file="UserInfoDaoTest_setWxUserInfo - 2018.12.03 at 16h 39m 28s.xml">
+      <configuration name="UserInfoDaoTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoServiceTest_login - 2018.11.20 at 17h 15m 50s.xml">
-      <configuration name="UserInfoServiceTest.login" configurationId="JUnit" />
+    <history-entry file="UserInfoDaoTest_setWxUserInfo - 2018.12.03 at 16h 40m 11s.xml">
+      <configuration name="UserInfoDaoTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoServiceTest_login - 2018.11.20 at 17h 16m 22s.xml">
-      <configuration name="UserInfoServiceTest.login" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_setWxUserInfo - 2018.12.03 at 17h 10m 31s.xml">
+      <configuration name="UserInfoServiceTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoServiceTest_login - 2018.11.20 at 17h 19m 49s.xml">
-      <configuration name="UserInfoServiceTest.login" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_setWxUserInfo - 2018.12.03 at 17h 12m 14s.xml">
+      <configuration name="UserInfoServiceTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoServiceTest_login - 2018.11.20 at 17h 20m 39s.xml">
-      <configuration name="UserInfoServiceTest.login" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_setWxUserInfo - 2018.12.03 at 17h 12m 48s.xml">
+      <configuration name="UserInfoServiceTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonalDataServiceTest_insert - 2018.11.20 at 17h 46m 54s.xml">
-      <configuration name="PersonalDataServiceTest.insert" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_setWxUserInfo - 2018.12.03 at 17h 13m 51s.xml">
+      <configuration name="UserInfoServiceTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonalDataServiceTest_insert - 2018.11.20 at 17h 49m 03s.xml">
-      <configuration name="PersonalDataServiceTest.insert" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_setWxUserInfo - 2018.12.03 at 17h 16m 00s.xml">
+      <configuration name="UserInfoServiceTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonalDataServiceTest_insert - 2018.11.20 at 18h 04m 05s.xml">
-      <configuration name="PersonalDataServiceTest.insert" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_setWxUserInfo - 2018.12.03 at 17h 16m 38s.xml">
+      <configuration name="UserInfoServiceTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonalDataServiceTest_insert - 2018.11.20 at 18h 05m 01s.xml">
-      <configuration name="PersonalDataServiceTest.insert" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceTest_setWxUserInfo - 2018.12.03 at 17h 17m 21s.xml">
+      <configuration name="UserInfoServiceTest.setWxUserInfo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -788,9 +873,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26384366" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18675353" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27361563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35287732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -812,147 +897,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/pojo/UserPersonalView.java" />
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/pojo/UserInfoTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/view/UserPersonalView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/PersonalDataDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/PersonalDataDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/pojo/SignatureHistoryTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/SignatureHistoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/SignatureHistoryDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/SignatureHistoryDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/pojo/BgmInfoTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/BgmInfoDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/BgmInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/BgmInfoDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/BgmInfoDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,33 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/UserInfoDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/BgmInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,16 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
-          <folding>
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2041#2042#0" expanded="true" />
-            <element signature="e#2091#2092#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/UserInfoServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/aspect/ServiceExceptionAop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -1029,57 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/logback-dev.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/PersonalDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/BgmInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/PersonalDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/BgmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/PersonalDataServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,21 +947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserPersonalDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/UserInfoDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1150,115 +989,276 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/WeChatController.java">
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/JsonResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/GetRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UploadService.java" />
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/BgmInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/PersonalDataDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/ValidateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/PersonalDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/BgmInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/BgmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/PersonalDataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UploadServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/interceptor/InterceptorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="76" lean-forward="true" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/qq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="216">
+          <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
           <folding>
-            <element signature="docComment;method#regist#0;class#UserController#0" />
-            <element signature="method#regist#0;class#UserController#0" />
             <element signature="docComment;method#login#0;class#UserController#0" />
-            <element signature="method#login#0;class#UserController#0" />
-            <element signature="docComment;field#logo#0;class#UserController#0" />
-            <element signature="method#logout#0;class#UserController#0" />
-            <element signature="docComment;method#getUserPersonal#0;class#UserController#0" />
-            <element signature="method#getUserPersonal#0;class#UserController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/PersonalDataController.java">
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/PersonalDataServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="440">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/GetRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UploadServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/JsonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-common/src/main/java/cn/shangpin/utils/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/dto/UserInfoDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="175">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-pojo/src/main/java/cn/shangpin/pojo/UserInfoTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/BgmInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-dao/src/main/java/cn/shangpin/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-service/src/main/java/cn/shangpin/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/dao/UserInfoDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/test/java/cn/shangpin/service/UserInfoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/resources/mapper/UserInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/WeChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shangpinvideo/shangpinvideo-api/src/main/java/cn/shangpin/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="35" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="294">
+          <caret line="48" column="83" selection-start-line="48" selection-start-column="83" selection-end-line="48" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

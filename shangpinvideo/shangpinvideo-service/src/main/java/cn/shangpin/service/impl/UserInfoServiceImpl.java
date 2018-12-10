@@ -9,16 +9,18 @@ import cn.shangpin.query.UserInfoLogin;
 import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
 import cn.shangpin.utils.GetMD5;
-import cn.shangpin.utils.JsonResult;
 import cn.shangpin.utils.ValidateUtil;
 import cn.shangpin.view.UserPersonalView;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.servlet.http.HttpSession;
+import java.lang.reflect.Type;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by qujie on 2018/11/7
@@ -29,6 +31,8 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Autowired
     private UserInfoDao userInfoDao;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     @Override
     @Transactional(rollbackFor = Exception.class)
@@ -61,15 +65,15 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public JsonResult<UserInfoDto> login(UserInfoLogin userInfoLogin) throws Exception {
+    public UserInfoDto login(UserInfoLogin userInfoLogin) throws Exception {
         UserInfoTable infoTable = userInfoDao.login(userInfoLogin);
         if(infoTable==null){
-            return new JsonResult<UserInfoDto>(Constant.FAILED_CODE,Constant.LOGIN_ERROR);
+            throw new ServiceException(Constant.SYSTEM_ERROR);
         }
         UserInfoDto userInfoDto=new UserInfoDto();
         BeanUtils.copyProperties(infoTable,userInfoDto);
         userInfoDto.setPassword("");
-        return new JsonResult<UserInfoDto>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,userInfoDto);
+        return userInfoDto;
     }
 
     @Override
@@ -101,6 +105,37 @@ public class UserInfoServiceImpl implements UserInfoService {
         UserInfoTable table = userInfoDao.weChatLogin(openId);
         BeanUtils.copyProperties(table,dto);
         return dto;
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public UserInfoDto getEntity(String key, Class classz) throws Exception {
+        String redisStr = this.getString(key);
+        return JSON.parseObject(redisStr, (Type) classz);
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public String getString(String key) throws Exception {
+        String redisStr = (String) redisTemplate.opsForValue().get(key);
+        return redisStr == null ? "" : redisStr;
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void save(String key, UserInfoDto dto, long time) throws Exception {
+        String objectStr = JSON.toJSONString(dto, new SerializerFeature[]{SerializerFeature.WriteMapNullValue});
+        if(time < 0L){
+            redisTemplate.opsForValue().set(key, objectStr);
+        }else {
+            redisTemplate.opsForValue().set(key, objectStr, time, TimeUnit.SECONDS);
+        }
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void remove(String key) throws Exception {
+        redisTemplate.delete(key);
     }
 
 }

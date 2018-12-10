@@ -1,6 +1,7 @@
 cn\shangpin\controller\WeChatController.class
 cn\shangpin\interceptor\InterceptorConfiguration.class
 cn\shangpin\controller\HelloWorld.class
+cn\shangpin\interceptor\RedisBeanConfiguration.class
 cn\shangpin\controller\BgmController.class
 cn\shangpin\Application.class
 cn\shangpin\controller\PersonalDataController.class

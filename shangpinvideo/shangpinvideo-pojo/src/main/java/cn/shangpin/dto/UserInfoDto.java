@@ -1,10 +1,5 @@
 package cn.shangpin.dto;
 
-import org.hibernate.validator.constraints.NotBlank;
-
-import javax.validation.constraints.NotNull;
-import java.util.Date;
-
 /**
  * 业务层
  * */
@@ -20,6 +15,8 @@ public class UserInfoDto {
     private Integer fansCounts;
     private Integer followCounts;
     private Integer receiveLikeCounts;
+
+    private String prefix;
 
     public Long getId() {
         return id;
@@ -99,6 +96,14 @@ public class UserInfoDto {
 
     public void setReceiveLikeCounts(Integer receiveLikeCounts) {
         this.receiveLikeCounts = receiveLikeCounts;
+    }
+
+    public String getPrefix() {
+        return prefix;
+    }
+
+    public void setPrefix(String prefix) {
+        this.prefix = prefix;
     }
 
     @Override

@@ -50,12 +50,18 @@ public class WeChatController {
                 return new  JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,dto);
             }else {
                 userInfoDto.setOpenId(openid);
+                userInfoDto.setFansCounts(0);
+                userInfoDto.setFollowCounts(0);
+                userInfoDto.setReceiveLikeCounts(0);
                 userInfoService.saveUser(userInfoDto);
                 UserInfoDto infoDto = userInfoService.weChatLogin(openid);
-                return new  JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,infoDto);
+
+                infoDto.setPrefix("user");
+                userInfoService.save(infoDto.getPrefix() + infoDto.getId(),infoDto,10086L);
+                return new JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,infoDto);
+
             }
         }
-
         return null;
     }
 }

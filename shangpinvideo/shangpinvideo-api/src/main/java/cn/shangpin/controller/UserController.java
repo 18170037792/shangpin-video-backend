@@ -7,9 +7,13 @@ import cn.shangpin.service.UserInfoService;
 import cn.shangpin.utils.Constant;
 import cn.shangpin.utils.GetMD5;
 import cn.shangpin.utils.JsonResult;
+import cn.shangpin.utils.ValidateUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -58,48 +62,8 @@ public class UserController {
         return new JsonResult<>(Constant.SUCCESS_CODE,Constant.SAVE_SUCCESS,userInfoDto);
     }
 
-    /**
-     * @api {post} user/login 用户登录
-     * @apiVersion 1.0.0
-     * @apiName login
-     * @apiGroup user
-     * @apiDescription  用户通过账号密码进行登录
-     * @apiParam {String} userName 账号
-     * @apiParam {String} password 密码
-     * @apiParamExample {json} 请求示例：
-     * {
-     *      "userName":"李四",
-     *      "password":"123123"
-     * }
-     * @apiSuccess {Number} code 返回类型
-     * @apiSuccess {String} msg 返回提示
-     * @apiSuccess {Object} data 用户信息
-     * @apiSuccess {String} data.phone 手机号
-     * @apiSuccess {String} data.username 用户名称
-     * @apiSuccess {String} data.password 登录密码
-     * @apiSuccess {String} data.faceImage 用户头像
-     * @apiSuccess {String} data.nickname 用户昵称
-     * @apiSuccess {Number} data.fansCounts 粉丝数量
-     * @apiSuccess {Number} data.followCounts 关注的用户数
-     * @apiSuccess {Number} data.receiveLikeCounts 用户收到的点赞/收藏数量
-     * @apiSuccessExample {json} 返回示例：
-     *  {
-     *   "code":200,
-     *   "msg":"登录成功",
-     *   "data":{
-     *       "phone":"157xxxxxxxx",
-     *       "username":"test",
-     *       "password":"xxx",
-     *       "faceImage":"123456",
-     *       "nickname":"1234",
-     *       "fansCounts":1000,
-     *       "followCounts":1000,
-     *       "receiveLikeCounts":1000
-     *       }
-     *   }
-     */
     @PostMapping("/login")
-    public JsonResult<UserInfoDto> login(@RequestBody UserInfoLogin userInfoLogin, HttpSession session) throws Exception {
+    public JsonResult<UserInfoDto> login(@RequestBody UserInfoLogin userInfoLogin) throws Exception {
         if(StringUtils.isBlank(userInfoLogin.getUsername())||StringUtils.isBlank(userInfoLogin.getPassword())){
             return new JsonResult<>(Constant.FAILED_CODE,"用户名或密码不能为空");
         }
@@ -107,21 +71,24 @@ public class UserController {
          * md5加密参数
          * */
         userInfoLogin.setPassword(GetMD5.getMD5(userInfoLogin.getPassword()));
-        JsonResult<UserInfoDto> jsonResult = userInfoService.login(userInfoLogin);
+        UserInfoDto infoDto = userInfoService.login(userInfoLogin);
+        infoDto.setPrefix("user");
         /**
-         * 将登陆信息存进session
+         * 登录信息存入redis中
          * */
-        session.setAttribute("user",jsonResult.getData());
-        return jsonResult;
+        userInfoService.save(infoDto.getPrefix() + infoDto.getId(),infoDto,10086L);
+        return new JsonResult<>(Constant.SUCCESS_CODE,Constant.LOGIN_SUCCESS,infoDto);
+
     }
 
     /**
      * 用户注销
      * */
     @PostMapping("/logout")
-    public JsonResult<Object> logout(HttpSession session) throws Exception{
-        if(session.getAttribute("user")!=null){
-            session.removeAttribute("user");
+    public JsonResult<Object> logout(HttpServletRequest request) throws Exception{
+        String accessToken = request.getHeader("Token");
+        if (accessToken != null && !accessToken.equals("")) {
+            userInfoService.remove(accessToken);
         }
         return new JsonResult<>(Constant.SUCCESS_CODE,Constant.UNLOGIN_SUCCESS);
     }
